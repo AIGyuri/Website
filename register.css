@@ -4,14 +4,23 @@ body {
 	/* background-color: black; */
 	background-image: url('./picture/reg_background.jpg');
  }
- 
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 118vh;
+	background: rgba(8,8,8,0.4);
+	width: 110%;
+
+	}
 h1{
 	color: #f1f1f1;
 }
 
  * {
 	margin: 0;
-	padding: 0;
+	padding: 2;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
  }
@@ -21,7 +30,7 @@ h1{
 	top: 0;
 	display: flex;
 	justify-content: space-around;
-	width: 100%;
+	width: 115% !important;
 	height: 100px;
 	line-height: 100px;
 	background: linear-gradient(rgba(39,39,39, 1), transparent);
@@ -32,6 +41,7 @@ h1{
 	color: white;
 	font-size:25px;
 	font-weight: 600;
+	
 }
 
 .nav-menu ul{
@@ -54,13 +64,41 @@ h1{
 	border-bottom: 2px solid #fff;
 }
 
-.nav-buttom .btn{
-	width: 130px;
+.nav-button .btn{
+	width: 140px;
 	height: 40px;
+	font-weight: 500;
+	background: rgba(255,255,255, 0.4);
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: .3s ease;
 }
 
- 
- /* Add padding to containers */
+#registerBtn{
+	margin-left:15px;
+}
+
+.btn.white-btn{
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.btn:hover{
+	background: rgba(255, 255, 255, 0.3);
+}
+
+
+.btn.btn.white-btn:hover{
+	background: rgba(255,255,255,0.7);
+}
+
+
+
+--------------------------
+
+ -----
+
+  /* Add padding to containers */
  .container {
 	padding: 16px;
 	/* background-color: white; */
@@ -75,12 +113,14 @@ h1{
  /* Full-width input fields */
  input[type=text], input[type=password] {
 	width: 50%;
-	padding: 15px;
-	margin: 5px 0 22px 0;
+	padding: 20px;
+	/* margin: 5px 0 22px 0; */
+	/* folyamatban (javítani!)*/
 	display: inline-block;
 	border: none;
 	background: #f1f1f1;
 	border-radius: 25px;
+	display: block; margin: 0% 95px; 
 	
  }
  
@@ -116,14 +156,19 @@ h1{
  /* Add a blue text color to links */
  a {
 	color: dodgerblue;
+	text-decoration: none;
  }
  
  /* Set a grey background color and center the text of the "sign in" section */
  .signin {
-	background-color: #f1f1f1;
+	color: #fff;
 	text-align: center;
  }
 .privacy{
 	text-align: center;
 	color: #ddd;
+}
+
+span{
+	color: #fff;
 }

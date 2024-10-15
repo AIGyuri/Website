@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="register.css">
-	<title>Document</title>
-</head>
-<body>
-	<div class="wrapper">
-		<nav class="nav">
-			<div class="nav-logo">
-				<p> LOGO.EXE</p>
-			</div>
-			<div class="nav-menu">
-				<ul>
-					<li><a href="#" class="link active">Home</a></li>
-					<li><a href="#" class="link">Blog</a></li>
-					<li><a href="#" class="link">Service</a></li>
-					<li><a href="#" class="link">About</a></li>
-				</ul>
-			</div>
-			<div class="nav-button">
-				<button class="btn" id="loginBtn">Sign In</button>
-				<button class="btn" id="registerBtn">Sign Up</button>
-			</div>
-			<div class="nav-menu-btn">
-				<div class="nav-menu-btn">
-					<i class="bx bx-menu"></i>
-				</div>
-			</div>
-		</nav>
-		<form action="/action_page.php">
+<form action="/action_page.php">
 		<div class="container">
 		  <h1>Regisztráció</h1>
 		  <!-- <hr> -->
@@ -54,10 +22,7 @@
 		  <button type="submit" class="registerbtn">Register</button>
 		</div>
 		
-		<!-- <div class="container signin">
+		<div class="container signin">
 		  <p>Already have an account? <a href="#">Sign in</a>.</p>
-		</div> -->
+		</div>
 	 </form>
-	</div>
-</body>
-</html>
