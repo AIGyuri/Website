@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	/* font-family: Arial, Helvetica, sans-serif; */
 	/* background-color: black; */
 	background-image: url('./picture/reg_background.jpg');
  }
@@ -9,13 +9,14 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 118vh;
+	/* min-height: 118vh; */
 	background: rgba(8,8,8,0.4);
-	width: 110%;
+	/* width: 110%; */
 
 	}
 h1{
 	color: #f1f1f1;
+
 }
 
  * {
@@ -92,38 +93,30 @@ h1{
 	background: rgba(255,255,255,0.7);
 }
 
-
-
---------------------------
-
- -----
-
   /* Add padding to containers */
  .container {
 	padding: 16px;
-	/* background-color: white; */
-	/* background-color: rgba(255, 255, 255, 0.5); */
 	text-align: center;
 	width: 50%;
 	margin:0 auto;
 	height: 100vh;
-	
+	margin-top: 100px;
  }
- 
+
  /* Full-width input fields */
  input[type=text], input[type=password] {
-	width: 50%;
+	width: 100%;
+	
 	padding: 20px;
-	/* margin: 5px 0 22px 0; */
-	/* folyamatban (javítani!)sc*/
-	display: inline-block;
+	display: block;
 	border: none;
 	background: #f1f1f1;
 	border-radius: 25px;
-	display: block; margin: 0% 95px; 
-	
+	margin-bottom: 20px; /* hozzáadott margin */
  }
  
+
+
  input[type=text]:focus, input[type=password]:focus {
 	background-color: #ddd;
 	outline: none;
